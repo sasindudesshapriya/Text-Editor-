@@ -24,3 +24,6 @@ $('.left').on('click',function(){
  $('.right').on('click',function(){
     document.getElementById('editor').style.textAlign = 'right '   
   }) 
+  $('.justify').on('click', function() {
+    document.getElementById('editor').style.textAlign = 'justify '
+  })
