@@ -18,3 +18,6 @@ $('.left').on('click',function(){
     
     document.getElementById('editor').style.textAlign = 'left '
  }) 
+ $('.center').on('click',function(){
+    document.getElementById('editor').style.textAlign = 'center '
+ }) 
